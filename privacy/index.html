@@ -59,9 +59,9 @@
                 <h2>The short version</h2>
                 <ul>
                   <li>No ads, and no advertising or tracking SDKs.</li>
-                  <li>No third-party analytics.</li>
                   <li>No accounts to create. We never ask for a child’s name, email or age.</li>
                   <li>Drawings are stored on your devices and in your family’s own iCloud, not on our servers.</li>
+                  <li>We count which features get used, anonymously, so we know what to improve.</li>
                 </ul>
                 <h2>Your drawings</h2>
                 <p>Drawings, coloring pages and cards are saved on your device and synced through Apple’s iCloud using the private CloudKit database of the Apple ID signed in on the device. That data is controlled by your Apple ID. We cannot see, read or access it. Deleting the app and its iCloud data (Settings → your name → iCloud → Manage Storage) removes it.</p>
@@ -69,6 +69,8 @@
                 <p>When your child describes a page out loud, speech is turned into text on the device using Apple’s on-device speech recognition. Doodah only accesses the photos you pick or take; it does not browse your photo library.</p>
                 <h2>Making coloring pages</h2>
                 <p>When you make a coloring page from words or a photo, the description, or a black-and-white copy of the photo, is sent over an encrypted connection to our server. The server forwards it to an image model provider (currently Google’s Gemini API) to draw the page, and the page is sent back to your device. We do not store the description, the photo or the page on our server. We keep only a count of how many pages have been made this month, tied to a random id created on the device, so we can apply the free and paid allowances. The model provider processes the request under its paid API terms, which do not allow using it to train their models.</p>
+                <h2>Anonymous feature counts</h2>
+                <p>Doodah uses <a href="https://telemetrydeck.com">TelemetryDeck</a>, a privacy-focused analytics service, to count how often features are used: for example, that a coloring page was made, a card was started, or a page was printed. These counts never include what was typed, said, drawn or photographed, and they carry no name, email, account, advertising identifier or any identifier that follows a person or device over time; every install reports as the same anonymous user. TelemetryDeck also receives general details such as the app version, iOS version, device model and language.</p>
                 <h2>Purchases</h2>
                 <p>Payments are handled by Apple. We use RevenueCat to check whether a subscription or credit pack is active. RevenueCat receives the App Store purchase receipt and an anonymous, randomly generated id. It does not receive your name or email from us. See <a href="https://www.revenuecat.com/privacy">RevenueCat’s privacy policy</a>.</p>
                 <h2>Children</h2>
