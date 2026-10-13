@@ -54,7 +54,7 @@
             <div class="privacy-content">
               <div>
                 <h1>Privacy policy</h1>
-                <p>Effective date: 10 October 2026</p>
+                <p><em>Effective date: 13 October 2026</em></p>
                 <p>Doodah is a coloring and drawing app made for children and their families. We built it to collect as little as possible. This policy explains what happens to your information when you use the app.</p>
                 <h2>The short version</h2>
                 <ul>
@@ -69,21 +69,25 @@
                 <p>When your child describes a page out loud, speech is turned into text on the device using Apple’s on-device speech recognition. Doodah only accesses the photos you pick or take; it does not browse your photo library.</p>
                 <h2>Making coloring pages</h2>
                 <p>When you make a coloring page from words or a photo, the description, or a black-and-white copy of the photo, is sent over an encrypted connection to our server. The server forwards it to an image model provider (currently Google’s Gemini API) to draw the page, and the page is sent back to your device. We do not store the description, the photo or the page on our server. We keep only a count of how many pages have been made this month, tied to a random id created on the device, so we can apply the free and paid allowances. The model provider processes the request under its paid API terms, which do not allow using it to train their models.</p>
+                <p>A grown-up can instead add their own developer key for an image service in Settings. Pages are then made straight from the device with that key and billed by that service; our server is not involved, and the key stays in the device’s Keychain.</p>
+                <h2>Movies of a drawing</h2>
+                <p>“Watch it being drawn” is made entirely on the device from the drawing itself. “Make it move” sends a picture of the finished drawing over an encrypted connection to our server, which asks a video model provider (currently Google’s Veo API) to animate it and returns the short movie to your device. Nothing a child types reaches the model: the instructions are fixed by us. We do not store the picture or the movie on our server, only a count of how many movies have been made this month, tied to the same random id. Movies are kept on your device with the drawing; sending one or saving it to Photos is up to you.</p>
                 <h2>Anonymous feature counts</h2>
-                <p>Doodah uses <a href="https://telemetrydeck.com">TelemetryDeck</a>, a privacy-focused analytics service, to count how often features are used: for example, that a coloring page was made, a card was started, or a page was printed. These counts never include what was typed, said, drawn or photographed, and they carry no name, email, account, advertising identifier or any identifier that follows a person or device over time; every install reports as the same anonymous user. TelemetryDeck also receives general details such as the app version, iOS version, device model and language.</p>
+                <p>Doodah uses <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, a privacy-focused analytics service, to count how often features are used: for example, that a coloring page was made, a card was started, or a page was printed. These counts never include what was typed, said, drawn or photographed, and they carry no name, email, account, advertising identifier or any identifier that follows a person or device over time; every install reports as the same anonymous user. TelemetryDeck also receives general details such as the app version, iOS version, device model and language.</p>
                 <h2>Purchases</h2>
-                <p>Payments are handled by Apple. We use RevenueCat to check whether a subscription or credit pack is active. RevenueCat receives the App Store purchase receipt and an anonymous, randomly generated id. It does not receive your name or email from us. See <a href="https://www.revenuecat.com/privacy">RevenueCat’s privacy policy</a>.</p>
+                <p>Payments are handled by Apple. We use RevenueCat to check whether a subscription or credit pack is active. RevenueCat receives the App Store purchase receipt and an anonymous, randomly generated id. It does not receive your name or email from us. See <a href="https://www.revenuecat.com/privacy/">RevenueCat’s privacy policy</a>.</p>
                 <h2>Children</h2>
-                <p>Doodah is designed for children under 13 and follows the requirements of the App Store Kids Category, COPPA and the GDPR. Purchases and outside links sit behind a parental gate. We do not knowingly collect personal information from children. If you think we have received any, email us and we will delete it.</p>
-                <h2>Sharing pages</h2>
+                <p>Doodah is designed for children and their families and follows COPPA and the GDPR. Buying, a grown-up’s own image key and links out of the app sit behind a parental gate. We do not knowingly collect personal information from children. If you think we have received any, email us and we will delete it.</p>
+                <h2>Sharing</h2>
                 <p>When you share a page as a .colorpage file, it goes directly through the app you choose (Messages, Mail, AirDrop and so on). It does not pass through our servers.</p>
+                <p>“Share with family” puts a drawing in a shared iCloud area that only the people you invite can see, so you can color the same page from different homes; Apple’s iCloud carries it, not our servers, and stopping sharing removes their access. “Draw together on FaceTime” sends strokes to the other people on the call through Apple’s SharePlay. We never see either.</p>
                 <h2>This website</h2>
                 <p>This website is hosted on GitHub Pages, which may briefly log the IP address of visitors, like any web server. The website has no analytics or cookies.</p>
                 <h2>Your choices</h2>
                 <ul>
                   <li>You can turn off iCloud for Doodah in Settings at any time; drawings then stay on the device.</li>
                   <li>You can cancel subscriptions in Settings → your name → Subscriptions.</li>
-                  <li>You can ask us any question about your data, or ask us to delete purchase counters linked to your anonymous id.</li>
+                  <li>You can ask us any question about your data, or ask us to delete the page and movie counters linked to your anonymous id.</li>
                 </ul>
                 <h2>Changes</h2>
                 <p>If we change this policy we will update this page and its effective date. Significant changes will also be mentioned in the app’s release notes.</p>
